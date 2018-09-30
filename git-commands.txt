@@ -1,0 +1,28 @@
+           Git Commands
+1.Configure the author name and email address to be used with your commits.
+:-git config --global user.name "Sam Smith"
+  git config --global user.email sam@example.com
+
+2.create a new local repositary.
+:-git init
+
+3.checkout a repository.
+ :-git clone /path/to/repository
+
+4.Add files
+ :-git add <filename>
+
+   git add *
+
+5. commit
+ :-git commit -m "Commit message"
+
+6.Push
+:- git push origin master
+
+7.status
+:- git status
+
+8. to connect to a remote repository
+:- git remote add origin <server>
+
